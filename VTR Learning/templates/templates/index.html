@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Layout</title>
+    <style>
+        .head1 {
+            font-size: 30px;
+            color: #009900;
+            font-weight: bold;
+        }
+
+        .head2 {
+            font-size: 17px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        body {
+            margin: 0 auto;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .menu {
+            position: sticky;
+            top: 0;
+            background-color: #009900;
+            padding: 10px 0px 10px 0px;
+            color: white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .menu a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .menu-log {
+            right: auto;
+            float: right;
+        }
+
+        footer {
+            width: 100%;
+            bottom: 0px;
+            background-color: #228B22;
+            color: #F8F8FF;
+            position: absolute;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .body_sec {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body style="background-color:LightGray;">
+
+    <!-- Header Section -->
+    <header>
+        <div class="head1">
+            VTR Learning
+        </div>
+        <div class="head2">
+            A computer science portal for Pharma profesionals
+        </div>
+    </header>
+
+    <!-- Menu Navigation Bar -->
+    <nav class="menu">
+      <a class="nav-link bg-success"href="/home">HOME</a>
+      <a class="nav-link bg-success"href="/Myportfolio">MY PORTFOLIO</a>
+      <a class="nav-link bg-success"href="/Videocall">VIDEO CALL</a>
+      <a href="#notification">
+            NOTIFICATIONS
+        </a>
+        <div class="menu-log">
+          <a class="nav-link bg-success"href="/login">Login</a>
+          <a class="nav-link bg-success"href="/signup">SignUp</a>
+        </div>
+    </nav>
+
+    <!-- Body section -->
+    <main class="body_sec">
+        <section id="Content">
+            <h3>Content section</h3>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>AI’s impact on healthcare is immense, and its potential to improve patient care and outcomes is inspiring</footer>
+</body>
+
+</html>
